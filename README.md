@@ -7,7 +7,7 @@ A simple, colorful command-line tool for tracking daily nutrition metrics.
 - **Quick Calorie Logging**: `cali 150` logs 150 calories
 - **Track Multiple Nutrition Metrics**:
   - Calories (green)
-  - Water in cups (blue)
+  - Water in fluid ounces (fl oz) (blue)
   - Protein in grams (yellow)
   - Carbs in grams (purple)
   - Fat in grams (red)
@@ -38,7 +38,7 @@ cp target/release/cali /usr/local/bin/
 cali 150
 
 # Log water intake
-cali log water 2
+cali log water 16
 
 # Log protein
 cali log protein 30
